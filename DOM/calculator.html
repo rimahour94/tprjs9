@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      .para {
+        color: darkblue;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      #anchor {
+        text-decoration: none;
+        color: red;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2 id="text-head" style="text-align: center">
+      Output: <span id="text"></span>
+    </h2>
+
+    <form action="" class="formContainer">
+      <div class="input-container">
+        <label for="">Number One</label> <br />
+        <input type="text" id="input1" />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="">Number Two</label> <br />
+        <input type="text" id="input2" /> <br />
+        <span style="color: red" id="error"></span>
+      </div>
+      <br />
+      <button class="btn-submit" id="btn-add" type="submit">Add</button>
+    </form>
+  </body>
+</html>
+
+<script src="./calculator.js"></script>

@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>First Web Page</title>
+    <style>
+      .para {
+        color: darkblue;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      #anchor {
+        text-decoration: none;
+        color: red;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div
+      style="
+        color: red;
+        width: 500px;
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+      "
+    >
+      <h2 id="text">Sign Up</h2>
+      <button class="btn-chng-text" onclick="handleClick()">
+        Change Text color
+      </button>
+    </div>
+    <!-- <h3>Welcome to My First Page</h3>
+    <h4>Welcome to My First Page</h4> -->
+    <!-- 
+    <button>Login</button>
+    <a id="anchor" target="_blank" href="https://www.google.com"
+      >Redirect To google Page</a
+    >
+    <p class="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat
+      consectetur optio consequuntur,
+      <b> iste atque nulla recusandae </b> provident dolore magni tenetur
+      facere, excepturi accusantium laborum eaque? Non consectetur quia
+      corrupti!
+    </p> -->
+
+    <form action="" class="formContainer">
+      <div class="input-container">
+        <label for="">Full Name</label> <br />
+        <input type="text" />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="">Email</label> <br />
+        <input type="text" />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="">Phone</label> <br />
+        <input type="text" />
+      </div>
+      <br />
+      <div class="input-container">
+        <label for="">Password</label> <br />
+        <input type="text" />
+      </div>
+      <br />
+      <button id="btn-submit" type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+
+<script src="./index.js"></script>
