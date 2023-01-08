@@ -16,4 +16,6 @@ const addHandler = (e) => {
   }
 };
 
-btnAdd.addEventListener("click", addHandler);
+// btnAdd.addEventListener("click", addHandler);
+
+btnAdd.onclick = addHandler;
